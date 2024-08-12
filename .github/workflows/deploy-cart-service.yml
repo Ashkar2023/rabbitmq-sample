@@ -1,7 +1,7 @@
 name: deploy-cart-service
 
 on:
-  commit:
+  push:
     branches: ["master"]
 
 jobs:
